@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 0;
+    padding: 25px 15px;
+}
+
+.form-container {
+    width: 850px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 25px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+td:nth-child(1) {
+    width: 5%;
+}
+
+td:nth-child(2) {
+    width: 32%;
+}
+
+td:nth-child(3) {
+    width: 63%;
+}
+
+tr {
+    height: 62px;
+}
+
+.judul {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    height: 34px;
+    border: 1px solid #bdbdbd;
+    padding: 5px 9px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.nim {
+    width: 250px;
+}
+
+.nama {
+    width: 350px;
+}
+
+.alamat {
+    width: 350px;
+}
+
+.telepon {
+    width: 200px;
+}
+
+select {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    height: 34px;
+    width: 200px;
+    padding: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    padding: 8px 22px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background: #eeeeee;
+}
+
+input[type="reset"] {
+    background: #eeeeee;
+}
+
+@media screen and (max-width: 700px) {
+    .form-container {
+        padding: 10px 5px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
